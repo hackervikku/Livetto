@@ -1,0 +1,555 @@
+
+/*** Mobile  ***/
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+/* hidden elements */
+
+#headerBtn,
+.header-img img,
+.header-btn,
+.large,
+.services-first-grid hr,
+.team-grid .col-md-4 hr,
+#portfolio hr,
+.portfolio-img-hover {
+  display: none;
+}
+
+/* global styling */
+
+h1 {
+  margin: 0.8em 0.5em;
+  font-size: 2.5em;
+}
+h2 {
+  margin: 3em 1em 2em;
+}
+p {
+  max-width: 80%;
+}
+.row {
+  overflow-x: hidden;
+}
+
+/* ===== Navigation ===== */
+
+#myNavbar {
+  max-width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 2em 0 1em;
+  background-color: #07dcdc;
+}
+.navbar-fixed-top {
+  min-height: 50px;
+}
+.navbar .main-nav {
+  margin-top: 0;
+  padding: 3em 0;
+}
+.main-nav li {
+  display: block;
+}
+.main-nav li a {
+  font-size: 2em;
+}
+.custom-navbar-toggle {
+  display: initial;
+  top: 0;
+  right: 8px;
+  z-index: 999;
+}
+.custom-navbar-toggle .custom-icon-bar {
+  width: 30px;
+  height: 4px;
+  margin: 4px 0;
+}
+.navbar-fixed-top {
+  height: 60px;
+  background-color:  #07dcdc;
+  box-shadow: 0 -1px 3px #666;
+}
+.navbar-brand {
+  width: 120px;
+  left: 5px;
+  z-index: 999;
+}
+
+/* ===== Header Section ===== */
+
+.header-img {
+  height: 600px;
+  background-image: url(../images/heroImg_resized.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.page-header {
+  width: 100%;
+  top: 3em;
+  left: 0;
+}
+.page-header h1 {
+  margin-bottom: 1em;
+  padding: 0;
+  font-size: 3.3em;
+}
+.page-header h3 {
+  margin: 0 15%;
+}
+
+/* ===== About Section ===== */
+
+.about-img-separator {
+  height: 768px;
+  padding: 1em 0.5em 4em;
+  background-image: url(../images/golden1_small.jpg);
+  background-size: cover;
+}
+.services-first-grid .col-middle {
+  border: none;
+}
+.services-first-grid .col-md-4 p {
+  max-width: 100%;
+  height: auto;
+}
+#services .services-second-grid .small {
+  display: block;
+  width: 100%;
+}
+.services-second-grid h1 {
+  top: 30%;
+}
+.overlay-1-bottom,
+.overlay-2-bottom,
+.overlay-3-bottom {
+  padding: 1.7em 1em;
+  line-height: 1.4em;
+}
+
+/* ===== Team Section ===== */
+
+#team .team-grid .col-md-4 {
+  padding-top: 0;
+  border: none;
+}
+.team-grid .col-sm-4 p {
+  margin: 3em auto 2em;
+  height: 12em;
+}
+#team h2 {
+  margin-top: 1em;
+}
+.skills-container {
+  padding-bottom: 0;
+}
+.skills-container li {
+  width: 150px;
+  height: 150px;
+  margin: 0.5em 1em;
+}
+.skill-title {
+  width: 130px;
+  height: 130px;
+  padding: 40% 0;
+  font-size: 1em;
+}
+.double-line {
+  padding: 32% 20%;
+}
+.lowered {
+  top: 0;
+}
+.percents {
+  width: 130px;
+  height: 130px;
+  font-size: 2.2em;
+}
+.img-separator {
+  margin-top: 5em;
+  padding: 3em 1em 1.5em;
+}
+.img-separator h2 {
+  line-height: 1.4em;
+}
+.img-separator span {
+  display: block;
+  padding-top: 1em;
+}
+
+/* ===== Portfolio Section ===== */
+
+#portfolio .row {
+  margin-left: 13px;
+}
+#portfolio ul {
+  margin-left: -40px;
+}
+#portfolio ul li {
+  display: block;
+  padding: 0 5px;
+  font-size: 2em;
+}
+.portfolio-grid .col-sm-4 {
+  width: 90%;
+}
+.modal img {
+  border-width: 20px;
+}
+#portfolio .customers {
+  margin: 2.5em auto 0 auto;
+}
+
+/* Customers Carousel */
+
+#carousel-customers {
+  margin: 0 auto;
+}
+.customers-grid img {
+  width: 140px;
+  margin: 1em auto;
+}
+.customers-grid .col-md-3 {
+  height: 100px;
+  border: none;
+}
+
+/* Testimonials Carousel */
+
+.testimonials  {
+  padding: 5em 1em 5em;
+}
+.testimonials {
+  background-image: url(../images/customers2_small.jpg);
+}
+.testimonials p {
+  font-size: 1.2em;
+}
+.testimonials p::before {
+  top: 85%;
+  left: 1em;
+}
+.testimonials p::after {
+  top: 85%;
+  right: 1em;
+}
+
+/* ===== Contact Section ===== */
+
+#contact p {
+  margin: 1em auto;
+}
+#contact .row {
+  margin: 0 1em;
+}
+#contact .row .right-col {
+  border-left: none;
+  border-top: 1px solid #07dcdc;
+}
+#contact .contact-grid {
+  padding: 1em;
+}
+.contact-location li {
+  margin: 0 0 0 3em;
+}
+.contact-location .contact-info {
+  padding-top: 0.7em;
+}
+form {
+  padding: 2em 0;
+}
+
+/* Map */
+
+#map {
+  height: 300px;
+}
+
+/* === Footer  === */
+
+.footer-social-btn {
+  display: inline-block;
+  width: 100%;
+  margin-left: -2em;
+}
+}
+
+/*** Mobile Landscape  ***/
+
+@media screen and (min-width: 480px) and (max-width: 769px) {
+
+/* ===== Navigation ===== */
+
+.main-nav li {
+  padding: 0.2em;
+}
+.main-nav li a {
+  font-size: 1.7em;
+}
+
+/* ===== Services Section ===== */
+
+.overlay-1-bottom,
+.overlay-2-bottom,
+.overlay-3-bottom {
+  padding: 3em 6em;
+  line-height: 1.4em;
+}
+#services .services-first-grid .col-md-4 p {
+  max-width: 70%;
+  height: auto;
+}
+.lnr-pencil,
+.lnr-laptop-phone,
+.lnr-code {
+  margin-top: 0;
+  padding: 20px;
+}
+.services-second-grid h1 {
+  font-size: 2em;
+  top: 36%;
+  left: 35%;
+  right: 35%;
+}
+
+/* ===== Team Section ===== */
+
+#team .row .team-grid {
+  margin: 0;
+  padding: 0;
+}
+#team .team-grid .col-md-4 p{
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#team .team-grid .col-md-4 img {
+  padding: 0 5em;
+  background: #07dcdc;
+}
+.social-buttons .fa {
+  font-size: 3em;
+}
+.team-grid p {
+  font-size: 1.2em;
+}
+.skills-container {
+  margin: 0 2.2em;
+}
+.skills-container li {
+  margin: 0.5em;
+}
+.img-separator {
+  margin-top: -6em;
+  padding: 7em 0 4em;
+}
+
+/* ===== Portfolio Section ===== */
+
+#portfolio .row {
+  margin-left: 12px;
+}
+/*.portfolio-grid .col-sm-4,*/
+.portfolio-grid .col-xs-6 {
+  width: 31%;
+  margin: 5px;
+  padding: 0;
+}
+.portfolio-grid img {
+  width: 150%;
+  left: -20%;
+}
+/* Page Preloader */
+.loader-container {
+  position: relative;
+  top: -90px;
+}
+}
+
+
+  @media screen and (min-width: 768px) and (max-width: 1024px){
+
+/* hidden elements */
+
+.header-img img,
+.portfolio-img-hover {
+  display: none;
+}
+
+/* global styling */
+
+h1 {
+  padding: 0 0.5em;
+}
+
+/* ===== Navigation ===== */
+
+.navbar-fixed-top {
+  min-height: 65px;
+}
+.navbar-brand {
+  width: 120px;
+}
+.main-nav {
+  margin-bottom: 2.5em;
+}
+.main-nav li {
+  padding: 0 1em;
+  top: 2em;
+}
+.main-nav li a {
+  font-size: 1.4em;
+}
+
+/* ===== Header Section ===== */
+
+.header-img {
+  height: 500px;
+  background-image: url(../images/heroImg_resized.jpg);
+}
+.page-header {
+  width: 100%;
+  top: 5em;
+  left: 0;
+}
+.page-header h1 {
+  margin-bottom: 1em;
+  padding: 0;
+  font-size: 3.8em;
+}
+.page-header h3 {
+  margin: 0 22%;
+}
+
+/* ===== About Section ===== */
+
+#about p {
+  max-width: 65%;
+}
+.about-img-separator {
+  padding: 1em 0.5em 4em;
+  background-image: url(../images/golden1_small.jpg);
+  background-size: auto;
+}
+
+/* ===== Services Section ===== */
+
+.services-first-grid {
+  padding: 0 0 0.5em;
+}
+.services-first-grid .col-sm-4 {
+  padding: 0 0 1.4em;
+}
+.services-first-grid .col-sm-4 p {
+  max-width: 90%;
+  height: 120px;
+}
+.services-first-grid hr {
+  margin: 1.5em 1.5em 0;
+}
+.lnr-pencil,
+.lnr-laptop-phone,
+.lnr-code {
+  margin-top: 1em;
+}
+.overlay-1-bottom,
+.overlay-2-bottom,
+.overlay-3-bottom {
+  padding: 3em;
+  line-height: 1.4em;
+}
+.services-second-grid h1 {
+  left: 20%;
+  right: 20%;
+}
+
+/* ===== Team Section ===== */
+
+
+#team .team-grid .col-md-4 img {
+  margin-top: 0.5em;
+  padding: 0 0.5em;
+  background: none;
+}
+#team .team-grid .col-md-4 {
+  padding: 2em 0 0;
+}
+.team-grid h3 {
+  font-size: 1.3em;
+}
+.team-grid p {
+  margin-top: 2.5em;
+  height: 270px;
+  font-size: 1.2em;
+}
+.skills-container {
+  margin: 0 1.5em;
+}
+.skills-container li {
+  width: 170px;
+  height: 170px;
+  margin: 0.5em 2.2em;
+}
+.skill-title {
+  width: 150px;
+  height: 150px;
+  padding: 40% 0;
+  font-size: 1.2em;
+}
+.double-line {
+  padding: 32% 20%;
+}
+.lowered {
+  top: -2em;
+}
+.percents {
+  width: 150px;
+  height: 150px;
+  font-size: 2.6em;
+}
+.img-separator {
+  margin-top: -9em;
+  background-image: url(../images/services2.jpg);
+  background-size: auto;
+}
+
+/* ===== Portfolio Section ===== */
+
+#portfolio h1 {
+  padding: 0 2em;
+}
+#portfolio .row {
+  margin-left: 12px;
+}
+.portfolio-grid .col-sm-4 {
+  width: 31.5%;
+  margin: 5px;
+  padding: 0;
+}
+#portfolio .portfolio-grid img {
+  max-width: 150%;
+}
+
+/* ===== Contact Section ===== */
+
+#contact .row {
+  margin: 1em 0.5em 2em 2em;
+}
+#contact .contact-grid {
+  padding: 1em;
+}
+form {
+  padding: 1em 0 2em 0.5em;
+}
+
+/* Map */
+
+#map {
+  height: 300px;
+}
+
+@media screen and (min-width: 1008px) and (max-width: 1024px) {
+  .skills-container {
+    margin: 0 2.5em;
+  }
+}
